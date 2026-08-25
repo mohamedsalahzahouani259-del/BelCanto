@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bel Canto Hammamet | Restaurant Italien à Hammamet</title>
+  <meta name="description" content="Bel Canto Hammamet, restaurant italien à Hammamet. Découvrez nos pizzas napolitaines, pâtes, risottos, fruits de mer et spécialités italiennes dans un cadre élégant.">
+  <meta name="keywords" content="Bel Canto, Restaurant Italien Hammamet, Pizza Napolitaine, Pâtes Fraîches, Risotto, Fruits de Mer, Gastronomie Hammamet">
+  <meta name="author" content="Bel Canto Hammamet">
+  
+  <!-- Open Graph / Meta Réseaux Sociaux -->
+  <meta property="og:type" content="restaurant.restaurant">
+  <meta property="og:title" content="Bel Canto Hammamet | Restaurant Italien à Hammamet">
+  <meta property="og:description" content="Une cuisine italienne authentique, des produits soigneusement sélectionnés et une expérience pensée pour éveiller tous les sens à Hammamet.">
+  <meta property="og:image" content="images/restaurant-interior.png">
+  <meta property="og:url" content="https://belcantohammamet.tn">
+  
+  <!-- Google Fonts: Cormorant Garamond, Playfair Display & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Feuille de style principale (Pure CSS3) -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. NAVBAR (100% PURE HTML5 + CSS3 — MENU HAMBURGER SANS JS)
+       ========================================================================= -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <!-- Logo Officiel Bel Canto -->
+      <a href="#hero" class="brand-logo" aria-label="Bel Canto Hammamet — Accueil">
+        <img src="images/logo-white.svg" alt="Bel Canto Hammamet — Logo Officiel" width="180" height="50">
+      </a>
+
+      <!-- Navigation Desktop -->
+      <nav class="nav-desktop" aria-label="Menu principal">
+        <a href="#hero" class="nav-link">Accueil</a>
+        <a href="#histoire" class="nav-link">Notre Histoire</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#galerie" class="nav-link">Galerie</a>
+        <a href="#avis" class="nav-link">Avis</a>
+        <a href="#localisation" class="nav-link">Localisation</a>
+        <a href="tel:+21699355338" class="btn btn-gold nav-cta-btn">📞 Réserver</a>
+      </nav>
+
+      <!-- Checkbox Hack pour Menu Mobile CSS Pur -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Basculer le menu mobile">
+      <label for="nav-toggle" class="nav-toggle-btn" aria-label="Ouvrir le menu">
+        <span class="hamburger-icon"></span>
+      </label>
+
+      <!-- Tiroir Menu Mobile (100% Pure CSS) -->
+      <div class="nav-mobile-drawer">
+        <label for="nav-toggle" class="nav-drawer-close" aria-label="Fermer le menu">&times;</label>
+        <ul class="nav-mobile-list">
+          <li><a href="#hero" class="nav-mobile-link">Accueil</a></li>
+          <li><a href="#histoire" class="nav-mobile-link">Notre Histoire</a></li>
+          <li><a href="#menu" class="nav-mobile-link">Notre Menu</a></li>
+          <li><a href="#galerie" class="nav-mobile-link">Galerie</a></li>
+          <li><a href="#avis" class="nav-mobile-link">Avis</a></li>
+          <li><a href="#localisation" class="nav-mobile-link">Localisation</a></li>
+        </ul>
+        <div class="nav-mobile-info">
+          <p>HAMMAMET, TUNISIE</p>
+          <p style="margin-top: 4px; color: var(--gold);">TOUS LES JOURS — 12:00 À 00:00</p>
+          <a href="tel:+21699355338" class="btn btn-gold" style="margin-top: 20px;">📞 Réserver : 99 355 338</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         2. HERO SECTION — IMPACT CINÉMATOGRAPHIQUE IMMÉDIAT
+         ========================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-container">
+        <img src="images/restaurant-mezzanine.jpg" alt="Ambiance luxueuse et luminaire Bel Canto Hammamet" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <span class="hero-label">Restaurant Italien · Hammamet</span>
+        <h1 class="hero-title">
+          L’Italie
+          <span class="title-subline">au cœur de Hammamet</span>
+        </h1>
+        <p class="hero-desc">
+          Une cuisine italienne authentique, des produits soigneusement sélectionnés et une expérience pensée pour éveiller tous les sens.
+        </p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary">Découvrir le Menu</a>
+          <a href="tel:+21699355338" class="btn btn-outline-white">📞 Réserver une Table</a>
+        </div>
+      </div>
+
+      <!-- Bas de Hero minimaliste -->
+      <div class="hero-footer-bar">
+        <span>Hammamet, Tunisie</span>
+        <a href="#histoire" class="hero-scroll-indicator" aria-label="Défiler vers le bas">
+          <div class="scroll-line"></div>
+        </a>
+        <span>12:00 — 00:00</span>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. SECTION INTRODUCTION & HISTOIRE (COMPOSITION ASYMÉTRIQUE ÉDITORIALE)
+         ========================================================================= -->
+    <section class="section" id="histoire">
+      <div class="container">
+        <div class="intro-grid">
+          <!-- Colonne Texte Éditorial -->
+          <div class="intro-text-col">
+            <span class="section-number">01</span>
+            <span class="label-eyebrow">Bel Canto</span>
+            <h2 class="heading-lg" style="margin-bottom: 1.5rem;">
+              Une symphonie de saveurs italiennes
+            </h2>
+            <div class="gold-divider left-aligned"></div>
+            <p class="lead-text" style="margin-bottom: 1.5rem;">
+              Bel Canto propose une expérience inspirée de la cuisine italienne et méditerranéenne, où les produits frais, les recettes généreuses et le savoir-faire se rencontrent dans un cadre élégant à Hammamet.
+            </p>
+            <p class="body-text" style="margin-bottom: 2.5rem;">
+              Né d’une passion inconditionnelle pour les arts de la table transalpins, notre établissement allie l'exigence des recettes traditionnelles au raffinement contemporain. Chaque assiette est pensée comme un hommage aux terroirs d’Italie et à la richesse des trésors marins méditerranéens.
+            </p>
+            <div>
+              <a href="#ambiance" class="link-editorial">Découvrir l'Art de Recevoir &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Colonne Visuelle Asymétrique avec photos réelles -->
+          <div class="intro-visual-col">
+            <div class="intro-img-main-wrap">
+              <img src="images/restaurant-interior.png" alt="Salle de restaurant raffinée avec banquettes velours turquoise Bel Canto" class="intro-img-main" loading="lazy">
+            </div>
+            
+            <!-- Carte photo flottante superposée -->
+            <div class="intro-img-floating-wrap">
+              <img src="images/sinfonia-di-mare.jpg" alt="Plat signature Sinfonia di Mare Bel Canto" class="intro-img-floating" loading="lazy">
+              <div class="floating-caption">
+                <span>Sinfonia di Mare</span>
+                <span class="text-gold">★ Signature</span>
+              </div>
+            </div>
+
+            <!-- Sceau éditorial -->
+            <div class="editorial-stamp">
+              <span>EST.</span>
+              <span>HAMMAMET</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. STATISTIQUES MINIMALISTES
+         ========================================================================= -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number">4.7<span style="font-size: 0.6em; color: var(--gold-light);">/5</span></div>
+            <div class="stat-label">Google Rating</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">1 076</div>
+            <div class="stat-label">Avis Clients</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">48H</div>
+            <div class="stat-label">Fermentation Pizza</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Passion Italienne</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. SECTION NOTRE MENU COMPLET (NAVIGATION ANCRES + LIGNES ÉDITORIALES)
+         ========================================================================= -->
+    <section class="section" id="menu">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-number">02</span>
+          <span class="label-eyebrow">Carte gastronomique</span>
+          <h2 class="heading-lg">NOTRE MENU</h2>
+          <div class="gold-divider"></div>
+          <p class="lead-text">
+            Une cuisine italienne généreuse, entre terre et mer.
+          </p>
+        </div>
+
+        <!-- Barre de Navigation Catégories (Sticky & Pure CSS) -->
+        <div class="menu-nav-wrapper">
+          <div class="menu-nav-scroll">
+            <a href="#menu-pizza" class="menu-category-btn">Pizzas</a>
+            <a href="#menu-pasta" class="menu-category-btn">Pasta</a>
+            <a href="#menu-risotto" class="menu-category-btn">Risotto</a>
+            <a href="#menu-plats" class="menu-category-btn">Plats de Terre</a>
+            <a href="#menu-seafood" class="menu-category-btn">Fruits de Mer</a>
+            <a href="#menu-burgers" class="menu-category-btn">Burgers</a>
+            <a href="#menu-vegan" class="menu-category-btn">Vegan</a>
+            <a href="#menu-desserts" class="menu-category-btn">Desserts</a>
+          </div>
+        </div>
+
+        <!-- ----------------------- CATÉGORIE : PIZZA ----------------------- -->
+        <div class="menu-group-container" id="menu-pizza">
+          <div class="menu-group-header">
+            <h3 class="menu-group-title">
+              <span>🍕</span> Pizzas Napolitaines
+            </h3>
+            <span class="menu-group-tagline">Pâte artisanale fermentée 48 heures</span>
+          </div>
+
+          <div class="menu-items-grid">
+            <!-- 01 Margherita -->
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">01</span>
+                  <h4 class="menu-item-name">Margherita</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">16 DT</span>
+              </div>
+              <p class="menu-item-desc">Sauce tomate, mozzarella, tomates cerises, basilic frais.</p>
+            </div>
+
+            <!-- 02 Americana -->
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">02</span>
+                  <h4 class="menu-item-name">Americana</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">27,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Sauce tomate, mozzarella, assortiment de viandes savoureuses.</p>
+            </div>
+
+            <!-- 03 Rosa Polo -->
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">03</span>
+                  <h4 class="menu-item-name">Rosa Polo</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">23,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Crème rosée délicate, mozzarella, émincé de poulet mariné.</p>
+            </div>
+
+            <!-- 04 Fruits de Mer -->
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">04</span>
+                  <h4 class="menu-item-name">Fruits de Mer</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">34,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Sauce tomate, mozzarella, fruits de mer marinés, tomates cerises.</p>
+            </div>
+
+            <!-- 05 4 Saisons -->
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">05</span>
+                  <h4 class="menu-item-name">4 Saisons</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">23,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Sauce tomate, mozzarella, champignons, poivrons, olives, jambon.</p>
+            </div>
+
+            <!-- 06 Crevettes -->
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">06</span>
+                  <h4 class="menu-item-name">Crevettes</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">34,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Sauce tomate, mozzarella, crevettes royales fraîches sautées à l'ail doux.</p>
+            </div>
+
+            <!-- 07 Pepperoni -->
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">07</span>
+                  <h4 class="menu-item-name">Pepperoni</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">22,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Sauce tomate, mozzarella, véritable pepperoni italien épicé.</p>
+            </div>
+
+            <!-- 08 Végétarienne -->
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">08</span>
+                  <h4 class="menu-item-name">Végétarienne</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">19,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Sauce tomate, mozzarella, légumes du soleil grillés et origan.</p>
+            </div>
+
+            <!-- 09 Burrata -->
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">09</span>
+                  <h4 class="menu-item-name">Burrata</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">29,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Pesto, mozzarella, bacon, burrata fraîche, roquette, pistache, crème balsamique.</p>
+            </div>
+
+            <!-- 10 5 Fromages -->
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">10</span>
+                  <h4 class="menu-item-name">5 Fromages</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">29,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Mozzarella, gorgonzola, parmesan, provolone et ricotta crémeuse.</p>
+            </div>
+
+            <!-- 11 Al Polo -->
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">11</span>
+                  <h4 class="menu-item-name">Al Polo</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">28,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Sauce onctueuse, mozzarella, poulet émincé aux herbes et champignons.</p>
+            </div>
+
+            <!-- 12 Bocconcini -->
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">12</span>
+                  <h4 class="menu-item-name">Bocconcini</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">32,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Sauce tomate fine, billes de mozzarella bocconcini fraîches et pesto.</p>
+            </div>
+
+            <!-- 13 Truffe Noire -->
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">13</span>
+                  <h4 class="menu-item-name">Truffe Noire</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">33,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Crème de truffe noire d'Italie, mozzarella, champignons et huile parfumée.</p>
+            </div>
+
+            <!-- 14 Bottarga -->
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">14</span>
+                  <h4 class="menu-item-name">Bottarga</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">34,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Poutargue affinée râpée, mozzarella, zeste de citron et roquette fraîche.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------- CATÉGORIE : PASTA ----------------------- -->
+        <div class="menu-group-container" id="menu-pasta">
+          <div class="menu-group-header">
+            <h3 class="menu-group-title">
+              <span>🍝</span> Pasta Italiana
+            </h3>
+            <span class="menu-group-tagline">Recettes généreuses et ingrédients nobles</span>
+          </div>
+
+          <div class="menu-items-grid">
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">01</span>
+                  <h4 class="menu-item-name">Spaghetti Fruits de Mer</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">38,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Fruits de mer sélectionnés, tomates fraîches, ail et persil plat.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">02</span>
+                  <h4 class="menu-item-name">Spaghetti Bolognaise</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">25,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Ragù traditionnel de bœuf mijoté plusieurs heures et parmesan.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">03</span>
+                  <h4 class="menu-item-name">Linguine Crevettes</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">38,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Crevettes sautées, bisque légère, tomates confites et basilic.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">04</span>
+                  <h4 class="menu-item-name">Penne Poulet</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">24 DT</span>
+              </div>
+              <p class="menu-item-desc">Morceaux de poulet tendres, crème veloutée et champignons de Paris.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">05</span>
+                  <h4 class="menu-item-name">Pasta Burrata</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">27,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Sauce tomate basilic, cœur de burrata crémeuse et huile d'olive fruitée.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">06</span>
+                  <h4 class="menu-item-name">Pasta 4 Fromages</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">33,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Onctuosité de quatre fromages italiens fondus et poivre concassé.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">07</span>
+                  <h4 class="menu-item-name">Linguine Truffe Noire</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">34,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Crème parfumée à la truffe noire d'Italie et copeaux de Parmigiano.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">08</span>
+                  <h4 class="menu-item-name">Pasta Alfredo</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">30,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Émulsion de beurre doux et parmesan affiné selon la recette classique.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">09</span>
+                  <h4 class="menu-item-name">Tagliatelle Saumon</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">42 DT</span>
+              </div>
+              <p class="menu-item-desc">Pavé de saumon frais émietté, crème légère et aneth fraîche.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">10</span>
+                  <h4 class="menu-item-name">Pasta Pesto & Crevettes</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">38,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Pesto de basilic genovese frais, crevettes snackées et pignons.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">11</span>
+                  <h4 class="menu-item-name">Pasta Pesto & Poulet</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">30,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Pesto maison, blancs de poulet dorés et parmesan râpé.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------- CATÉGORIE : RISOTTO ----------------------- -->
+        <div class="menu-group-container" id="menu-risotto">
+          <div class="menu-group-header">
+            <h3 class="menu-group-title">
+              <span>🍚</span> Risottos Onctueux
+            </h3>
+            <span class="menu-group-tagline">Riz Carnaroli lié au beurre doux et parmesan</span>
+          </div>
+
+          <div class="menu-items-grid">
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">01</span>
+                  <h4 class="menu-item-name">Risotto Gambas</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">45 DT</span>
+              </div>
+              <p class="menu-item-desc">Gambas royales rôties, bouillon de crustacés corsé et réduction aux herbes.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">02</span>
+                  <h4 class="menu-item-name">Risotto Fruits de Mer</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">43,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Mélange de coquillages et crustacés mijotés dans un riz crémeux.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">03</span>
+                  <h4 class="menu-item-name">Risotto Poulet Safran</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">32 DT</span>
+              </div>
+              <p class="menu-item-desc">Infusion de safran pur, aiguillettes de volaille et parmesan 24 mois.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">04</span>
+                  <h4 class="menu-item-name">Risotto Pesto & Parmigiano</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">28,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Pesto vert vibrant, copeaux généreux de Parmigiano Reggiano.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------- CATÉGORIE : FRUITS DE MER ----------------------- -->
+        <div class="menu-group-container" id="menu-seafood">
+          <div class="menu-group-header">
+            <h3 class="menu-group-title">
+              <span>🐟</span> Fruits de Mer & Poissons
+            </h3>
+            <span class="menu-group-tagline">Fraîcheur marine et cuissons maîtrisées</span>
+          </div>
+
+          <div class="menu-items-grid">
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">01</span>
+                  <h4 class="menu-item-name">Poisson Bel Canto</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">47,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Pêche noble du jour préparée selon l'inspiration du chef Bel Canto.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">02</span>
+                  <h4 class="menu-item-name">Couscous à la Trapanaise</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">49 DT</span>
+              </div>
+              <p class="menu-item-desc">Recette sicilienne authentique de Trapani aux poissons et amandes douces.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">03</span>
+                  <h4 class="menu-item-name">Saumon grillé</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">39,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Pavé de saumon grillé à la plancha, légumes croquants et émulsion citronnée.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">04</span>
+                  <h4 class="menu-item-name">Sinfonia di Mare</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">49 DT</span>
+              </div>
+              <p class="menu-item-desc">Gratin noble de fruits de mer, moules fraîches, crevettes et fromage doré au four.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">05</span>
+                  <h4 class="menu-item-name">Saumon façon Toscana</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">48,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Saumon fondant nappé d'une sauce toscane aux épinards, ail doux et tomates confites.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------- CATÉGORIE : PLATS DE TERRE ----------------------- -->
+        <div class="menu-group-container" id="menu-plats">
+          <div class="menu-group-header">
+            <h3 class="menu-group-title">
+              <span>🥩</span> Plats de Terre
+            </h3>
+            <span class="menu-group-tagline">Viandes d'exception et recettes réconfortantes</span>
+          </div>
+
+          <div class="menu-items-grid">
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">01</span>
+                  <h4 class="menu-item-name">Poulet Parmigiana</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">36,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Escalope panée croustillante, mozzarella gratinée, coulis de tomates et roquette.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">02</span>
+                  <h4 class="menu-item-name">Cordon Bleu</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">36,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Cordon bleu maison préparé à la minute avec fromage coulant et jambon de qualité.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">03</span>
+                  <h4 class="menu-item-name">Mega Supreme aux champignons</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">32,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Suprême de volaille rôti accompagné d'une sauce forestière onctueuse aux champignons.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">04</span>
+                  <h4 class="menu-item-name">Beef Stroganoff</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">39,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Lanières de bœuf tendre, sauce onctueuse au paprika doux, champignons et cornichons fins.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------- CATÉGORIE : BURGERS ----------------------- -->
+        <div class="menu-group-container" id="menu-burgers">
+          <div class="menu-group-header">
+            <h3 class="menu-group-title">
+              <span>🍔</span> Burgers Gourmets
+            </h3>
+            <span class="menu-group-tagline">Pain brioché artisanal et sauces maison</span>
+          </div>
+
+          <div class="menu-items-grid">
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">01</span>
+                  <h4 class="menu-item-name">Classic Crispy Burger</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">16,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Poulet croustillant mariné, cheddar fondant, laitue croquante et sauce spéciale.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">02</span>
+                  <h4 class="menu-item-name">Double Crispy Burger</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">28,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Double portion de poulet croustillant extra doré, double cheddar et garnitures.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">03</span>
+                  <h4 class="menu-item-name">Classic Beef Burger</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">18,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Steak de bœuf haché frais, oignons caramélisés, tomates et cheddar vieilli.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">04</span>
+                  <h4 class="menu-item-name">Double Beef Burger</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">32,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Deux généreux steaks de bœuf saisis, double fromage et sauce maison signature.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------- CATÉGORIE : VEGAN ----------------------- -->
+        <div class="menu-group-container" id="menu-vegan">
+          <div class="menu-group-header">
+            <h3 class="menu-group-title">
+              <span>🌿</span> Options Vegan
+            </h3>
+            <span class="menu-group-tagline">100% végétal, frais et savoureux</span>
+          </div>
+
+          <div class="menu-items-grid">
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">01</span>
+                  <h4 class="menu-item-name">Pasta Arrabiata</h4>
+                  <span class="badge-vegan">🌿 VEGAN</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">29,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Sauce tomate pimentée, ail rôti, persil frais et huile d'olive extra vierge.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">02</span>
+                  <h4 class="menu-item-name">Pasta Olio e Aglio</h4>
+                  <span class="badge-vegan">🌿 VEGAN</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">23,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Huile d'olive d'excellence, ail doré, piment doux et basilic frais.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">03</span>
+                  <h4 class="menu-item-name">Salade Vegan</h4>
+                  <span class="badge-vegan">🌿 VEGAN</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">15,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Sélection de jeunes pousses, légumes du soleil croquants, graines et vinaigrette maison.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">04</span>
+                  <h4 class="menu-item-name">Risotto Vegan aux champignons</h4>
+                  <span class="badge-vegan">🌿 VEGAN</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">31,9 DT</span>
+              </div>
+              <p class="menu-item-desc">Bouillon végétal corsé, mélange de champignons sauvages et huile parfumée.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------- CATÉGORIE : DESSERTS ----------------------- -->
+        <div class="menu-group-container" id="menu-desserts">
+          <div class="menu-group-header">
+            <h3 class="menu-group-title">
+              <span>🍰</span> Desserts de la Maison
+            </h3>
+            <span class="menu-group-tagline">Douceurs italiennes et créations gourmandes</span>
+          </div>
+
+          <div class="menu-items-grid">
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">01</span>
+                  <h4 class="menu-item-name">Fondant au chocolat avec glace</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">11 DT</span>
+              </div>
+              <p class="menu-item-desc">Cœur coulant au chocolat noir intense, servi chaud avec boule de glace vanille et coulis caramel.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">02</span>
+                  <h4 class="menu-item-name">Tiramisu</h4>
+                  <span class="badge-signature">⭐ SIGNATURE</span>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">11 DT</span>
+              </div>
+              <p class="menu-item-desc">Le grand classique italien : mascarpone onctueux, biscuits imbibés d'espresso et cacao amer.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">03</span>
+                  <h4 class="menu-item-name">Coupe de fruits</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">9 DT</span>
+              </div>
+              <p class="menu-item-desc">Méli-mélo de fruits frais de saison découpés avec soin et jus d'agrumes.</p>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-top">
+                <div class="menu-item-name-wrap">
+                  <span class="menu-item-number">04</span>
+                  <h4 class="menu-item-name">Coupe de fruits avec glace</h4>
+                </div>
+                <div class="menu-item-dots"></div>
+                <span class="menu-item-price">10 DT</span>
+              </div>
+              <p class="menu-item-desc">Fruits frais rafraîchissants accompagnés d'une boule de glace artisanale au choix.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. SECTION À PROPOS : L'ART DE RECEVOIR
+         ========================================================================= -->
+    <section class="section section-light" id="ambiance">
+      <div class="container">
+        <div class="art-grid">
+          <!-- Visuel Asymétrique -->
+          <div class="art-visual">
+            <div class="art-img-wrap">
+              <img src="images/restaurant-mezzanine.jpg" alt="Vue de la salle à l'étage et ambiance feutrée Bel Canto" class="art-img-main" loading="lazy">
+            </div>
+            <!-- Citation élégante -->
+            <div class="art-quote-card">
+              <p class="art-quote-text">
+                “La gastronomie est l'art d'utiliser la nourriture pour créer le bonheur.”
+              </p>
+              <span class="art-quote-author">Bel Canto Hammamet</span>
+            </div>
+          </div>
+
+          <!-- Texte Présentation -->
+          <div class="art-text-content">
+            <span class="section-number">03</span>
+            <span class="label-eyebrow">Expérience & Service</span>
+            <h2 class="heading-lg" style="margin-bottom: 1.5rem;">L'ART DE RECEVOIR</h2>
+            <div class="gold-divider left-aligned"></div>
+            
+            <div class="art-features-list">
+              <div class="art-feature-item">
+                <div class="art-feature-icon">✦</div>
+                <div>
+                  <h3 class="art-feature-title">Un Accueil Chaleureux & Attentif</h3>
+                  <p class="art-feature-text">
+                    Dès vos premiers pas dans notre établissement, notre équipe dévouée vous réserve une attention personnalisée au sein d'une atmosphère feutrée, bercée d'une musique douce et relaxante.
+                  </p>
+                </div>
+              </div>
+
+              <div class="art-feature-item">
+                <div class="art-feature-icon">✦</div>
+                <div>
+                  <h3 class="art-feature-title">L'Exigence des Ingrédients</h3>
+                  <p class="art-feature-text">
+                    Fromages affinés de terroir, huile d'olive vierge extra, poissons et crustacés d'une fraîcheur absolue : nous sélectionnons chaque produit auprès des meilleurs producteurs.
+                  </p>
+                </div>
+              </div>
+
+              <div class="art-feature-item">
+                <div class="art-feature-icon">✦</div>
+                <div>
+                  <h3 class="art-feature-title">Le Savoir-Faire Italien & Méditerranéen</h3>
+                  <p class="art-feature-text">
+                    Du pétrissage de notre pâte à pizza fermentée 48 heures au dressage délicat de nos assiettes, chaque plat reflète l'âme et la générosité de la véritable gastronomie italienne.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. SECTION GALERIE ÉDITORIALE ASYMÉTRIQUE
+         ========================================================================= -->
+    <section class="section" id="galerie">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-number">04</span>
+          <span class="label-eyebrow">Immersion Visuelle</span>
+          <h2 class="heading-lg">La Galerie Bel Canto</h2>
+          <div class="gold-divider"></div>
+          <p class="lead-text">
+            Un aperçu du décor raffiné, de nos tables soignées et de nos créations gourmandes.
+          </p>
+        </div>
+
+        <div class="gallery-editorial-grid">
+          <!-- Item 1: Grande image principale (Salle / Velours Turquoise) -->
+          <div class="gallery-item gallery-item-1">
+            <img src="images/restaurant-interior.png" alt="Salle du restaurant Bel Canto avec assises en velours turquoise" class="gallery-img" loading="lazy">
+            <div class="gallery-item-overlay">
+              <div class="gallery-item-caption">
+                <h3 class="gallery-item-title">La Salle Principale</h3>
+                <span class="gallery-item-sub">Design épuré & banquettes turquoise</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Sinfonia di Mare -->
+          <div class="gallery-item gallery-item-2">
+            <img src="images/sinfonia-di-mare.jpg" alt="Sinfonia di Mare aux fruits de mer Bel Canto" class="gallery-img" loading="lazy">
+            <div class="gallery-item-overlay">
+              <div class="gallery-item-caption">
+                <h3 class="gallery-item-title">Sinfonia di Mare</h3>
+                <span class="gallery-item-sub">Fruits de mer & gratin doré</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Poulet Parmigiana / Plat raffiné -->
+          <div class="gallery-item gallery-item-3">
+            <img src="images/dish-parmigiana.jpg" alt="Poulet Parmigiana et ses accompagnements gastronomiques" class="gallery-img" loading="lazy">
+            <div class="gallery-item-overlay">
+              <div class="gallery-item-caption">
+                <h3 class="gallery-item-title">Plats de Terre</h3>
+                <span class="gallery-item-sub">Poulet Parmigiana & garnitures</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Étage & Lustres -->
+          <div class="gallery-item gallery-item-4">
+            <img src="images/restaurant-mezzanine.jpg" alt="Vue en surplomb de la salle à l'étage et luminaires dorés" class="gallery-img" loading="lazy">
+            <div class="gallery-item-overlay">
+              <div class="gallery-item-caption">
+                <h3 class="gallery-item-title">L'Étage</h3>
+                <span class="gallery-item-sub">Lustres dorés & ambiance feutrée</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5: Fondant au chocolat & Mur végétalisé Bel Canto -->
+          <div class="gallery-item gallery-item-5">
+            <img src="images/dessert-fondant.jpg" alt="Fondant au chocolat gourmand devant l'enseigne Bel Canto" class="gallery-img" loading="lazy">
+            <div class="gallery-item-overlay">
+              <div class="gallery-item-caption">
+                <h3 class="gallery-item-title">Douceurs Sucrées</h3>
+                <span class="gallery-item-sub">Fondant chocolat & mur végétal</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         8. SECTION AVIS CLIENTS (LES 5 AVIS RÉELS VÉRIFIÉS)
+         ========================================================================= -->
+    <section class="section section-light" id="avis">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-number">05</span>
+          <span class="label-eyebrow">Témoignages Clients</span>
+          <h2 class="heading-lg">ILS EN PARLENT</h2>
+          <div class="gold-divider"></div>
+        </div>
+
+        <!-- Note Google 4.7 / 5 -->
+        <div class="reviews-score-header">
+          <div class="google-badge-pill">
+            <span class="stars-gold">★★★★★</span>
+            <span class="score-text">4,7 / 5</span>
+            <span class="count-text">Google Reviews · 1 076 avis</span>
+          </div>
+        </div>
+
+        <!-- Cartes des 5 avis exacts -->
+        <div class="reviews-grid">
+          <!-- Avis 1: Oussama Miloud -->
+          <article class="review-card">
+            <div>
+              <div class="review-top">
+                <div class="review-avatar">OM</div>
+                <div class="review-author-info">
+                  <h3 class="review-author-name">Oussama Miloud</h3>
+                  <span class="review-meta">3 avis · 5 photos</span>
+                </div>
+              </div>
+              <div class="review-stars-date">
+                <span class="stars-gold">★★★★★</span>
+                <span class="review-date">il y a 3 mois</span>
+              </div>
+              <p class="review-quote">
+                “Une adresse que je recommande vivement ! Les pizzas sont tout simplement excellentes, avec une pâte parfaite et des ingrédients de grande qualité. C’est un vrai régal visuel et gustatif.<br><br>
+                Au-delà de l'assiette, j'ai été particulièrement marqué par la qualité du service. Le personnel est accueillant, professionnel et aux petits soins pour ses clients, ce qui rend le moment encore plus agréable.<br><br>
+                Un sans-faute, bravo à toute l'équipe !”
+              </p>
+            </div>
+          </article>
+
+          <!-- Avis 2: roua ab -->
+          <article class="review-card">
+            <div>
+              <div class="review-top">
+                <div class="review-avatar" style="background: linear-gradient(135deg, #43828F 0%, #24363A 100%);">RA</div>
+                <div class="review-author-info">
+                  <h3 class="review-author-name">roua ab</h3>
+                  <span class="review-meta">15 avis · 8 photos</span>
+                </div>
+              </div>
+              <div class="review-stars-date">
+                <span class="stars-gold">★★★★★</span>
+                <span class="review-date">il y a un mois</span>
+              </div>
+              <p class="review-quote">
+                “J'ai essayé Bel Canto à plusieurs reprises depuis son ouverture et la qualité est toujours au rendez-vous. Les produits sont frais les plats sont bons et le service est constant. Le gérant est très serviable, professionnel et toujours à l'écoute de ses clients. C'est une adresse que je recommande sans hésiter.”
+              </p>
+            </div>
+          </article>
+
+          <!-- Avis 3: Africa Opticstore -->
+          <article class="review-card">
+            <div>
+              <div class="review-top">
+                <div class="review-avatar" style="background: linear-gradient(135deg, #C8A96B 0%, #9A7B3E 100%);">AO</div>
+                <div class="review-author-info">
+                  <h3 class="review-author-name">Africa Opticstore</h3>
+                  <span class="review-meta">2 avis · 6 photos</span>
+                </div>
+              </div>
+              <div class="review-stars-date">
+                <span class="stars-gold">★★★★★</span>
+                <span class="review-date">il y a un mois</span>
+              </div>
+              <p class="review-quote">
+                “Je vous recommande vivement le restaurant Bel Canto Hammamet.<br><br>
+                La cuisine est tout simplement une symphonie de saveur, des plats savoureux, généreux et préparés avec soin.<br>
+                L équipe est accueillante et attentionnée.<br>
+                L’ambiance est conviviale et chaleureuse,<br>
+                Music très calme.<br>
+                Une adresse que je recommande sans hésitation.”
+              </p>
+            </div>
+          </article>
+
+          <!-- Avis 4: Boushaki Hamida -->
+          <article class="review-card">
+            <div>
+              <div class="review-top">
+                <div class="review-avatar">BH</div>
+                <div class="review-author-info">
+                  <h3 class="review-author-name">Boushaki Hamida</h3>
+                  <span class="review-meta">10 avis · 7 photos</span>
+                </div>
+              </div>
+              <div class="review-stars-date">
+                <span class="stars-gold">★★★★★</span>
+                <span class="review-date">il y a 6 mois</span>
+              </div>
+              <p class="review-quote">
+                “Restaurant Bel Canton incroyable !<br><br>
+                Nous nous sommes rendus au restaurant en famille et nous avons tous beaucoup apprécié. L’accueil et le service étaient excellents. Les raviolis faits maison sont délicieux, la viande est très tendre, et l’on a véritablement l’impression de voyager en Italie.<br><br>
+                Une très belle découverte que je recommande vivement.”
+              </p>
+            </div>
+          </article>
+
+          <!-- Avis 5: Natasha Crasto -->
+          <article class="review-card">
+            <div>
+              <div class="review-top">
+                <div class="review-avatar" style="background: linear-gradient(135deg, #3A8E72 0%, #24363A 100%);">NC</div>
+                <div class="review-author-info">
+                  <h3 class="review-author-name">Natasha Crasto</h3>
+                  <span class="review-meta">22 avis · 48 photos</span>
+                </div>
+              </div>
+              <div class="review-stars-date">
+                <span class="stars-gold">★★★★★</span>
+                <span class="review-date">il y a 2 mois</span>
+              </div>
+              <p class="review-quote">
+                “Amazing Italian in Hammamet. The portions are excessive! Great value for money. They offer complimentary starters. Would highly recommend this place. Really enjoyed the food 👌🏼”
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Encadré pour Laisser votre avis -->
+        <div class="leave-review-box">
+          <span class="label-eyebrow">Partagez votre ressenti</span>
+          <h3>Votre expérience compte</h3>
+          <p>
+            Vous avez apprécié votre passage chez Bel Canto ? Partagez votre expérience avec nous et aidez d'autres gourmets à découvrir nos spécialités.
+          </p>
+          <a href="https://www.google.com/maps/place/Baka+Burger+%F0%9F%8D%94+Hammamet/@36.4008831,10.6022197,16z/data=!4m10!1m2!2m1!1srestaurants+hammamet!3m6!1s0x12fd61003ed8665d:0xa286cd761e82ecc9!8m2!3d36.399059!4d10.6120524!15sChRyZXN0YXVyYW50cyBoYW1tYW1ldFoWIhRyZXN0YXVyYW50cyBoYW1tYW1ldJIBCnJlc3RhdXJhbnSaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhrV0ZSWVZqTmphbU16VTBaR2ExWnJSVE5ZTW1SUVRrZFpkMWxZWXhBQuABAPoBBAgAEC8!16s%2Fg%2F11yp6xp2nt?entry=ttu" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            ★ LAISSER VOTRE AVIS
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         9. SECTION LOCALISATION & GOOGLE MAPS
+         ========================================================================= -->
+    <section class="section" id="localisation">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-number">06</span>
+          <span class="label-eyebrow">Localisation Privilégiée</span>
+          <h2 class="heading-lg">Rendez-nous visite à Hammamet</h2>
+          <div class="gold-divider"></div>
+        </div>
+
+        <div class="location-grid">
+          <!-- Carte d'informations -->
+          <div class="location-info-card">
+            <div>
+              <span class="label-eyebrow" style="color: var(--gold-light);">Bel Canto Hammamet</span>
+              <h3>Une adresse incontournable</h3>
+              <p class="body-text" style="color: var(--secondary);">
+                Situé dans l'une des zones les plus agréables de Hammamet, Bel Canto vous accueille dans un décor contemporain et élégant.
+              </p>
+
+              <div class="location-detail-list">
+                <div class="location-detail-item">
+                  <span class="location-detail-icon">📍</span>
+                  <div>
+                    <h4>Adresse</h4>
+                    <p>Hammamet, Tunisie</p>
+                  </div>
+                </div>
+
+                <div class="location-detail-item">
+                  <span class="location-detail-icon">🕒</span>
+                  <div>
+                    <h4>Horaires d'Ouverture</h4>
+                    <p>Tous les jours — 12:00 à 00:00 (Service continu)</p>
+                  </div>
+                </div>
+
+                <div class="location-detail-item">
+                  <span class="location-detail-icon">✦</span>
+                  <div>
+                    <h4>Ambiance & Services</h4>
+                    <p>Climatisé, musique d'ambiance douce, terrasse & salle à l'étage.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <a href="https://www.google.com/maps/place/Baka+Burger+%F0%9F%8D%94+Hammamet/@36.4008831,10.6022197,16z/data=!4m10!1m2!2m1!1srestaurants+hammamet!3m6!1s0x12fd61003ed8665d:0xa286cd761e82ecc9!8m2!3d36.399059!4d10.6120524!15sChRyZXN0YXVyYW50cyBoYW1tYW1ldFoWIhRyZXN0YXVyYW50cyBoYW1tYW1ldJIBCnJlc3RhdXJhbnSaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhrV0ZSWVZqTmphbU16VTBaR2ExWnJSVE5ZTW1SUVRrZFpkMWxZWXhBQuABAPoBBAgAEC8!16s%2Fg%2F11yp6xp2nt?entry=ttu" target="_blank" rel="noopener noreferrer" class="btn btn-gold" style="width: 100%;">
+                OUVRIR GOOGLE MAPS
+              </a>
+            </div>
+          </div>
+
+          <!-- Bloc Cartographique Stylisé Luxe -->
+          <div class="map-visual-card">
+            <div class="map-bg-pattern"></div>
+            
+            <div class="map-center-badge">
+              <div class="radar-pulse">
+                <div class="radar-dot"></div>
+              </div>
+              <span class="label-eyebrow no-after" style="color: var(--gold-light);">Restaurant Italien</span>
+              <h4>Bel Canto Hammamet</h4>
+              <p>📍 Hammamet, Tunisie · 36.3990° N, 10.6120° E</p>
+              <a href="https://www.google.com/maps/place/Baka+Burger+%F0%9F%8D%94+Hammamet/@36.4008831,10.6022197,16z/data=!4m10!1m2!2m1!1srestaurants+hammamet!3m6!1s0x12fd61003ed8665d:0xa286cd761e82ecc9!8m2!3d36.399059!4d10.6120524!15sChRyZXN0YXVyYW50cyBoYW1tYW1ldFoWIhRyZXN0YXVyYW50cyBoYW1tYW1ldJIBCnJlc3RhdXJhbnSaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhrV0ZSWVZqTmphbU16VTBaR2ExWnJSVE5ZTW1SUVRrZFpkMWxZWXhBQuABAPoBBAgAEC8!16s%2Fg%2F11yp6xp2nt?entry=ttu" target="_blank" rel="noopener noreferrer" class="link-editorial" style="color: var(--gold-light);">
+                Voir Bel Canto sur Google Maps &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fin des sections principales -->
+  </main>
+
+  <!-- =========================================================================
+       15. FOOTER LUXUEUX (#24363A)
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Colonne Marque -->
+        <div class="footer-brand-col">
+          <img src="images/logo-white.svg" alt="Bel Canto Hammamet" class="footer-logo">
+          <p class="footer-brand-desc">
+            Bel Canto Hammamet célèbre l'art culinaire transalpin au cœur de la côte tunisienne. Des pizzas napolitaines fermentées 48h aux poissons nobles et pâtes fraîches maison.
+          </p>
+          <span style="font-size: 0.8rem; color: var(--gold); letter-spacing: 0.1em;">
+            ★★★★★ 4,7 / 5 · 1 076 Avis Google
+          </span>
+        </div>
+
+        <!-- Colonne Navigation -->
+        <div>
+          <h3 class="footer-col-title">Navigation</h3>
+          <ul class="footer-links-list">
+            <li><a href="#hero" class="footer-link">Accueil</a></li>
+            <li><a href="#histoire" class="footer-link">Notre Histoire</a></li>
+            <li><a href="#menu" class="footer-link">Notre Menu</a></li>
+            <li><a href="#galerie" class="footer-link">Galerie</a></li>
+            <li><a href="#avis" class="footer-link">Avis Clients</a></li>
+            <li><a href="#localisation" class="footer-link">Localisation</a></li>
+          </ul>
+        </div>
+
+        <!-- Colonne Réseaux Sociaux -->
+        <div>
+          <h3 class="footer-col-title">Réseaux & Contact</h3>
+          <ul class="footer-links-list">
+            <li><a href="tel:+21699355338" class="footer-link">📞 +216 99 355 338</a></li>
+            <li><a href="https://wa.me/21699355338" target="_blank" rel="noopener noreferrer" class="footer-link">💬 WhatsApp</a></li>
+            <li><a href="https://www.instagram.com/bel_canto_hammamet/" target="_blank" rel="noopener noreferrer" class="footer-link">📸 Instagram</a></li>
+            <li><a href="https://www.facebook.com/belcantohammamet/" target="_blank" rel="noopener noreferrer" class="footer-link">👥 Facebook</a></li>
+            <li><a href="#avis" class="footer-link">★ Google Reviews</a></li>
+          </ul>
+        </div>
+
+        <!-- Colonne Horaires & Infos -->
+        <div>
+          <h3 class="footer-col-title">Informations</h3>
+          <div class="footer-info-item">
+            <strong style="color: var(--white); display: block; margin-bottom: 2px;">Localisation</strong>
+            Hammamet, Tunisie
+          </div>
+          <div class="footer-info-item">
+            <strong style="color: var(--white); display: block; margin-bottom: 2px;">Horaires</strong>
+            Tous les jours : 12:00 — 00:00
+          </div>
+          <div style="margin-top: 1.5rem;">
+            <a href="tel:+21699355338" class="btn btn-gold" style="font-size: 0.72rem; padding: 10px 20px;">
+              📞 Appeler : 99 355 338
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Barre inférieure -->
+      <div class="footer-bottom-bar">
+        <p>© 2026 Bel Canto Hammamet. Tous droits réservés.</p>
+        <p>L'Italie au cœur de Hammamet · Gastronomie & Raffinement</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
