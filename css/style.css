@@ -906,19 +906,16 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* --------------------------------------------------------------------------
-   12. NOTRE MENU COMPLET — NAVIGATION CAPSULE LUXE
+   12. NOTRE MENU COMPLET — NAVIGATION PILLS MINIMALISTE & ÉLÉGANTE
    -------------------------------------------------------------------------- */
 .menu-nav-wrapper {
   position: sticky;
   top: var(--header-height);
   z-index: 100;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-top: 1px solid rgba(200, 169, 107, 0.25);
-  border-bottom: 1px solid rgba(47, 136, 159, 0.15);
-  box-shadow: 0 6px 20px rgba(36, 54, 58, 0.04);
-  padding: 12px 0;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 18px 0;
   margin-bottom: 3.5rem;
 }
 
@@ -926,54 +923,49 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.65rem;
+  gap: 12px;
+  row-gap: 12px;
   flex-wrap: wrap;
-  overflow-x: auto;
-  padding: 4px 12px;
-  -webkit-overflow-scrolling: touch;
+  padding: 4px 10px;
 }
 
 .menu-category-btn {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  justify-content: center;
   font-family: var(--font-sans);
-  font-size: 0.74rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--secondary);
-  padding: 8px 16px;
-  border-radius: 50px;
+  font-size: 0.86rem;
+  font-weight: 500;
+  color: #55504c;
+  background: #FFFFFF;
+  padding: 10px 22px;
+  border-radius: 9999px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
   transition: all var(--transition-fast);
-  background: var(--light);
-  border: 1px solid rgba(47, 136, 159, 0.15);
   white-space: nowrap;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+  text-decoration: none;
 }
 
-.nav-cat-icon {
-  font-size: 0.95rem;
-  transition: transform var(--transition-fast);
-}
-
-.menu-category-btn:hover,
-.menu-category-btn:focus,
-.menu-category-btn:active {
-  color: #FFFFFF;
-  background: linear-gradient(135deg, var(--primary) 0%, #1e5f70 100%);
-  border-color: var(--gold);
-  box-shadow: 0 4px 14px rgba(47, 136, 159, 0.28);
+.menu-category-btn:hover {
+  color: #111111;
+  background: #FFFFFF;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   transform: translateY(-2px);
 }
 
-.menu-category-btn:hover .nav-cat-icon {
-  transform: scale(1.18);
+.menu-category-btn.active,
+.menu-category-btn:active {
+  color: #FFFFFF;
+  background: #7D2323;
+  border-color: #7D2323;
+  box-shadow: 0 4px 14px rgba(125, 35, 35, 0.35);
+  transform: translateY(0);
 }
 
 .menu-group-container {
   margin-bottom: 4.5rem;
-  scroll-margin-top: calc(var(--header-height) + 80px);
+  scroll-margin-top: calc(var(--header-height) + 90px);
 }
 
 .menu-group-header {
@@ -1747,6 +1739,7 @@ h1, h2, h3, h4, h5, h6 {
     scrollbar-width: none;
     -ms-overflow-style: none;
     padding: 6px 16px;
+    gap: 8px;
     -webkit-overflow-scrolling: touch;
   }
   .menu-nav-scroll::-webkit-scrollbar {
@@ -1754,8 +1747,8 @@ h1, h2, h3, h4, h5, h6 {
   }
   .menu-category-btn {
     flex-shrink: 0;
-    font-size: 0.70rem;
-    padding: 7px 14px;
+    font-size: 0.78rem;
+    padding: 8px 16px;
   }
 
 
