@@ -948,18 +948,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu-category-btn:hover {
-  color: #111111;
+  color: var(--primary);
   background: #FFFFFF;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  border-color: rgba(47, 136, 159, 0.25);
+  box-shadow: 0 6px 18px rgba(47, 136, 159, 0.12);
   transform: translateY(-2px);
 }
 
 .menu-category-btn.active,
 .menu-category-btn:active {
   color: #FFFFFF;
-  background: #7D2323;
-  border-color: #7D2323;
-  box-shadow: 0 4px 14px rgba(125, 35, 35, 0.35);
+  background: var(--dark);
+  border-color: var(--dark);
+  box-shadow: 0 4px 14px rgba(36, 54, 58, 0.28);
   transform: translateY(0);
 }
 
